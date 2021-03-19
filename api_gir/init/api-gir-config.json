@@ -1,0 +1,15 @@
+{
+    "lambdas": [
+        {
+            "name": "HelloWorld",
+            "path": "hello-world",
+            "entry_point": "hello:handler"
+        }
+    ],
+    "layers": [
+        {
+            "name": "Logger",
+            "path": "logger"
+        }
+    ]
+}
